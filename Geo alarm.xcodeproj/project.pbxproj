@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4998D7E71ECF90250024E7FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4998D7E61ECF90250024E7FA /* LoginViewController.swift */; };
+		49ABC8D31ECF7C0100B2EDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABC8D21ECF7C0100B2EDAE /* AppDelegate.swift */; };
+		49ABC8D81ECF7C0100B2EDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ABC8D61ECF7C0100B2EDAE /* Main.storyboard */; };
+		49ABC8DA1ECF7C0100B2EDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49ABC8D91ECF7C0100B2EDAE /* Assets.xcassets */; };
+		49ABC8DD1ECF7C0100B2EDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ABC8DB1ECF7C0100B2EDAE /* LaunchScreen.storyboard */; };
+		49F30C101ECF884B0011BD76 /* Bariol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49F30C0E1ECF884B0011BD76 /* Bariol.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4998D7E61ECF90250024E7FA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		49ABC8CF1ECF7C0100B2EDAE /* Geo alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ABC8D21ECF7C0100B2EDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49ABC8D71ECF7C0100B2EDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49ABC8D91ECF7C0100B2EDAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49ABC8DC1ECF7C0100B2EDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49F30C0D1ECF884B0011BD76 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		49F30C0E1ECF884B0011BD76 /* Bariol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bariol.otf; path = Resources/Bariol.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49ABC8CC1ECF7C0100B2EDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4998D7E51ECF8FE00024E7FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4998D7E61ECF90250024E7FA /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		49ABC8C61ECF7C0100B2EDAE = {
+			isa = PBXGroup;
+			children = (
+				49ABC8D11ECF7C0100B2EDAE /* Geo alarm */,
+				49ABC8D01ECF7C0100B2EDAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49ABC8D01ECF7C0100B2EDAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49ABC8CF1ECF7C0100B2EDAE /* Geo alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49ABC8D11ECF7C0100B2EDAE /* Geo alarm */ = {
+			isa = PBXGroup;
+			children = (
+				49ABC8D21ECF7C0100B2EDAE /* AppDelegate.swift */,
+				49ABC8D61ECF7C0100B2EDAE /* Main.storyboard */,
+				49ABC8DB1ECF7C0100B2EDAE /* LaunchScreen.storyboard */,
+				4998D7E51ECF8FE00024E7FA /* ViewControllers */,
+				49F30C0C1ECF88190011BD76 /* Resources */,
+			);
+			path = "Geo alarm";
+			sourceTree = "<group>";
+		};
+		49F30C0C1ECF88190011BD76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49ABC8D91ECF7C0100B2EDAE /* Assets.xcassets */,
+				49F30C0D1ECF884B0011BD76 /* Info.plist */,
+				49F30C0E1ECF884B0011BD76 /* Bariol.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49ABC8CE1ECF7C0100B2EDAE /* Geo alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ABC8E11ECF7C0100B2EDAE /* Build configuration list for PBXNativeTarget "Geo alarm" */;
+			buildPhases = (
+				49ABC8CB1ECF7C0100B2EDAE /* Sources */,
+				49ABC8CC1ECF7C0100B2EDAE /* Frameworks */,
+				49ABC8CD1ECF7C0100B2EDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geo alarm";
+			productName = "Geo alarm";
+			productReference = 49ABC8CF1ECF7C0100B2EDAE /* Geo alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49ABC8C71ECF7C0100B2EDAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Armadillo;
+				TargetAttributes = {
+					49ABC8CE1ECF7C0100B2EDAE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BK463G8GP3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49ABC8CA1ECF7C0100B2EDAE /* Build configuration list for PBXProject "Geo alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49ABC8C61ECF7C0100B2EDAE;
+			productRefGroup = 49ABC8D01ECF7C0100B2EDAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49ABC8CE1ECF7C0100B2EDAE /* Geo alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49ABC8CD1ECF7C0100B2EDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ABC8DD1ECF7C0100B2EDAE /* LaunchScreen.storyboard in Resources */,
+				49F30C101ECF884B0011BD76 /* Bariol.otf in Resources */,
+				49ABC8DA1ECF7C0100B2EDAE /* Assets.xcassets in Resources */,
+				49ABC8D81ECF7C0100B2EDAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49ABC8CB1ECF7C0100B2EDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4998D7E71ECF90250024E7FA /* LoginViewController.swift in Sources */,
+				49ABC8D31ECF7C0100B2EDAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49ABC8D61ECF7C0100B2EDAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49ABC8D71ECF7C0100B2EDAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49ABC8DB1ECF7C0100B2EDAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49ABC8DC1ECF7C0100B2EDAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49ABC8DF1ECF7C0100B2EDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49ABC8E01ECF7C0100B2EDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49ABC8E21ECF7C0100B2EDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BK463G8GP3;
+				INFOPLIST_FILE = "$(SRCROOT)/Geo alarm/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Armadillo.Geo-alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49ABC8E31ECF7C0100B2EDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BK463G8GP3;
+				INFOPLIST_FILE = "$(SRCROOT)/Geo alarm/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Armadillo.Geo-alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49ABC8CA1ECF7C0100B2EDAE /* Build configuration list for PBXProject "Geo alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ABC8DF1ECF7C0100B2EDAE /* Debug */,
+				49ABC8E01ECF7C0100B2EDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49ABC8E11ECF7C0100B2EDAE /* Build configuration list for PBXNativeTarget "Geo alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ABC8E21ECF7C0100B2EDAE /* Debug */,
+				49ABC8E31ECF7C0100B2EDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49ABC8C71ECF7C0100B2EDAE /* Project object */;
+}
