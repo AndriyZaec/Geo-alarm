@@ -20,24 +20,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pAo-tH-cSC">
-                                <rect key="frame" x="106" y="296" width="162" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uBc-K5-yhb">
-                                <rect key="frame" x="106" y="340" width="162" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginBG" translatesAutoresizingMaskIntoConstraints="NO" id="RuW-Wk-bGO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GEc-fh-FQM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tt7-mv-qXV" customClass="CustomTextField" customModule="Geo_alarm" customModuleProvider="target">
+                                        <rect key="frame" x="50" y="293" width="275" height="30"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Z0-gN-dws" customClass="CustomTextField" customModule="Geo_alarm" customModuleProvider="target">
+                                        <rect key="frame" x="50" y="343" width="275" height="30"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="k8T-Za-Zcb">
+                                        <rect key="frame" x="119" y="32" width="137" height="222"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="5Z0-gN-dws" firstAttribute="leading" secondItem="GEc-fh-FQM" secondAttribute="leading" constant="50" id="1B2-vU-yR7"/>
+                                    <constraint firstItem="5Z0-gN-dws" firstAttribute="top" secondItem="tt7-mv-qXV" secondAttribute="bottom" constant="20" id="MHP-qJ-DVE"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Z0-gN-dws" secondAttribute="trailing" constant="50" id="c44-Vf-ck7"/>
+                                    <constraint firstItem="tt7-mv-qXV" firstAttribute="centerY" secondItem="GEc-fh-FQM" secondAttribute="centerY" constant="-25.5" id="ugv-xY-SpF"/>
+                                    <constraint firstItem="tt7-mv-qXV" firstAttribute="leading" secondItem="GEc-fh-FQM" secondAttribute="leading" constant="50" id="xe9-y7-y3y"/>
+                                    <constraint firstAttribute="trailing" secondItem="tt7-mv-qXV" secondAttribute="trailing" constant="50" id="xfr-42-hs4"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.29168066382408142" green="0.29168066382408142" blue="0.29168066382408142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RuW-Wk-bGO" secondAttribute="bottom" id="2bm-wv-vs6"/>
+                            <constraint firstAttribute="trailing" secondItem="GEc-fh-FQM" secondAttribute="trailing" id="JqX-3p-7mt"/>
+                            <constraint firstItem="RuW-Wk-bGO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="TAl-hE-Toq"/>
+                            <constraint firstItem="GEc-fh-FQM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TiH-Iv-lqs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GEc-fh-FQM" secondAttribute="bottom" id="fz6-U7-uK0"/>
+                            <constraint firstItem="GEc-fh-FQM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="jcb-Aw-vGs"/>
+                            <constraint firstItem="RuW-Wk-bGO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oPR-wF-w1z"/>
+                            <constraint firstItem="GEc-fh-FQM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="t2F-Pp-dQB"/>
+                            <constraint firstAttribute="trailing" secondItem="RuW-Wk-bGO" secondAttribute="trailing" id="wvC-y5-BCA"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g24-DJ-k3L"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,9 +77,9 @@
         <!--Navigation Controller-->
         <scene sceneID="gyG-BA-p5g">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7xJ-Re-5So" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="7xJ-Re-5So" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ULs-0m-oFW">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ULs-0m-oFW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -66,4 +97,8 @@
             <point key="canvasLocation" x="103" y="123"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Logo" width="250" height="453"/>
+        <image name="loginBG" width="455" height="682"/>
+    </resources>
 </document>

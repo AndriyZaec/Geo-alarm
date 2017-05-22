@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		497632A91ED39705000863EF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497632A81ED39705000863EF /* CustomTextField.swift */; };
 		4998D7E71ECF90250024E7FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4998D7E61ECF90250024E7FA /* LoginViewController.swift */; };
 		49ABC8D31ECF7C0100B2EDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABC8D21ECF7C0100B2EDAE /* AppDelegate.swift */; };
 		49ABC8D81ECF7C0100B2EDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ABC8D61ECF7C0100B2EDAE /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		497632A81ED39705000863EF /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = Views/CustomTextField.swift; sourceTree = "<group>"; };
 		4998D7E61ECF90250024E7FA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
 		49ABC8CF1ECF7C0100B2EDAE /* Geo alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49ABC8D21ECF7C0100B2EDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		497632A71ED396DB000863EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				497632A81ED39705000863EF /* CustomTextField.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		4998D7E51ECF8FE00024E7FA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 				49ABC8DB1ECF7C0100B2EDAE /* LaunchScreen.storyboard */,
 				4998D7E51ECF8FE00024E7FA /* ViewControllers */,
 				49F30C0C1ECF88190011BD76 /* Resources */,
+				497632A71ED396DB000863EF /* Views */,
 			);
 			path = "Geo alarm";
 			sourceTree = "<group>";
@@ -159,6 +170,7 @@
 			files = (
 				4998D7E71ECF90250024E7FA /* LoginViewController.swift in Sources */,
 				49ABC8D31ECF7C0100B2EDAE /* AppDelegate.swift in Sources */,
+				497632A91ED39705000863EF /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
