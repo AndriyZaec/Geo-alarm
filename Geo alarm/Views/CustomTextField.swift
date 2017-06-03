@@ -9,23 +9,19 @@
 import UIKit
 
 class CustomTextField: UITextField {
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
         layer.borderColor = UIColor.white.cgColor
-        layer.borderWidth = 2
-        layer.cornerRadius = 10
+        layer.borderWidth = 1
+        layer.cornerRadius = 0
         tintColor = UIColor.white
         backgroundColor = UIColor.clear
         textColor = UIColor.white
         textAlignment = .center
         font = UIFont(name: "Bariol", size : 17)
-        
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        //TODO animation
+        alpha = 1;
     }
 
 }

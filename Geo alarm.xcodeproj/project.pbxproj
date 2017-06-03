@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4973C34D1EE2EB9B00FC14C8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973C34C1EE2EB9B00FC14C8 /* CustomButton.swift */; };
 		497632A91ED39705000863EF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497632A81ED39705000863EF /* CustomTextField.swift */; };
 		4998D7E71ECF90250024E7FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4998D7E61ECF90250024E7FA /* LoginViewController.swift */; };
 		49ABC8D31ECF7C0100B2EDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABC8D21ECF7C0100B2EDAE /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4973C34C1EE2EB9B00FC14C8 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = Views/CustomButton.swift; sourceTree = "<group>"; };
 		497632A81ED39705000863EF /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = Views/CustomTextField.swift; sourceTree = "<group>"; };
 		4998D7E61ECF90250024E7FA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
 		49ABC8CF1ECF7C0100B2EDAE /* Geo alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				497632A81ED39705000863EF /* CustomTextField.swift */,
+				4973C34C1EE2EB9B00FC14C8 /* CustomButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4973C34D1EE2EB9B00FC14C8 /* CustomButton.swift in Sources */,
 				4998D7E71ECF90250024E7FA /* LoginViewController.swift in Sources */,
 				49ABC8D31ECF7C0100B2EDAE /* AppDelegate.swift in Sources */,
 				497632A91ED39705000863EF /* CustomTextField.swift in Sources */,
