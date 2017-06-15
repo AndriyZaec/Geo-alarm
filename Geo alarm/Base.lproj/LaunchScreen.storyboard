@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Bariol.otf">
-            <string>Bariol</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -25,27 +20,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hRn-SZ-h48">
-                                <rect key="frame" x="113" y="140" width="149" height="282"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="282" id="JDO-I8-UDk"/>
-                                    <constraint firstAttribute="width" constant="149" id="qYL-Rv-jSM"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HighResolutionLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hRn-SZ-h48">
+                                <rect key="frame" x="37" y="183" width="300" height="300"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geo alarm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqF-ch-g6f">
-                                <rect key="frame" x="16" y="446" width="343" height="50"/>
-                                <fontDescription key="fontDescription" name="Bariol" family="Bariol" pointSize="50"/>
-                                <color key="textColor" red="0.36726653575897217" green="0.87388855218887329" blue="0.84568303823471069" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hRn-SZ-h48" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-52.5" id="AjM-cS-kTE"/>
-                            <constraint firstAttribute="trailing" secondItem="SqF-ch-g6f" secondAttribute="trailing" constant="16" id="DL9-wt-N7m"/>
-                            <constraint firstItem="SqF-ch-g6f" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="ESL-44-5kh"/>
-                            <constraint firstItem="SqF-ch-g6f" firstAttribute="top" secondItem="hRn-SZ-h48" secondAttribute="bottom" constant="24" id="X1Y-JY-wXA"/>
-                            <constraint firstItem="hRn-SZ-h48" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YKy-rJ-SOY"/>
+                            <constraint firstItem="hRn-SZ-h48" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YE1-u1-98K"/>
+                            <constraint firstItem="hRn-SZ-h48" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gj0-5Q-tzO"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -55,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo" width="250" height="453"/>
+        <image name="HighResolutionLogo" width="300" height="300"/>
     </resources>
 </document>

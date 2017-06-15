@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7xJ-Re-5So">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7xJ-Re-5So">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -40,7 +40,7 @@
                                                 <constraint firstAttribute="height" constant="30" id="Rqc-xr-wXI"/>
                                             </constraints>
                                             <nil key="textColor"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <fontDescription key="fontDescription" name="Bariol" family="Bariol" pointSize="17"/>
                                             <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                         </textField>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u5y-R9-zSf" customClass="CustomTextField" customModule="Geo_alarm" customModuleProvider="target">
@@ -49,12 +49,12 @@
                                                 <constraint firstAttribute="height" constant="30" id="Y9h-Rw-1Zy"/>
                                             </constraints>
                                             <nil key="textColor"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <fontDescription key="fontDescription" name="Bariol" family="Bariol" pointSize="17"/>
                                             <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
                                         </textField>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85T-Qx-CJy">
                                             <rect key="frame" x="38" y="383" width="299" height="61"/>
-                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="61" id="8kA-cu-FaE"/>
                                             </constraints>
@@ -88,17 +88,11 @@
                                             <fontDescription key="fontDescription" name="Bariol" family="Bariol" pointSize="20"/>
                                             <state key="normal" title="forgot password?"/>
                                         </button>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OnboardPointerImage" translatesAutoresizingMaskIntoConstraints="NO" id="oId-D7-u7Q">
-                                            <rect key="frame" x="-200" y="45" width="117" height="170"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HighResolutionLogo" translatesAutoresizingMaskIntoConstraints="NO" id="bjj-OS-Iua">
+                                            <rect key="frame" x="87" y="91" width="200" height="200"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="170" id="MsX-m7-yrh"/>
-                                            </constraints>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlaceOnBoardImage" translatesAutoresizingMaskIntoConstraints="NO" id="s0h-L3-4c2">
-                                            <rect key="frame" x="121.5" y="181" width="132" height="54"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="132" id="WOB-3F-EF0"/>
-                                                <constraint firstAttribute="height" constant="54" id="Z8n-j9-Xcu"/>
+                                                <constraint firstAttribute="width" constant="200" id="VT8-Kc-geG"/>
+                                                <constraint firstAttribute="height" constant="200" id="kWl-xb-4rv"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
@@ -106,11 +100,8 @@
                                         <constraint firstItem="UJF-Gv-iAh" firstAttribute="leading" secondItem="nVf-sh-auU" secondAttribute="leading" constant="38" id="33d-5N-a3j"/>
                                         <constraint firstItem="u5y-R9-zSf" firstAttribute="trailing" secondItem="2tw-ln-HBl" secondAttribute="trailing" id="5Jg-Hx-IHz"/>
                                         <constraint firstItem="2tw-ln-HBl" firstAttribute="centerY" secondItem="nVf-sh-auU" secondAttribute="centerY" constant="-19.5" id="8oO-bN-tsY"/>
-                                        <constraint firstItem="s0h-L3-4c2" firstAttribute="top" secondItem="nVf-sh-auU" secondAttribute="top" constant="181" id="DIe-WA-CKY"/>
-                                        <constraint firstItem="s0h-L3-4c2" firstAttribute="centerX" secondItem="nVf-sh-auU" secondAttribute="centerX" id="Dnj-m2-Syj"/>
                                         <constraint firstAttribute="trailing" secondItem="2tw-ln-HBl" secondAttribute="trailing" constant="38" id="Gqv-Xs-aiW"/>
                                         <constraint firstItem="u5y-R9-zSf" firstAttribute="centerY" secondItem="nVf-sh-auU" secondAttribute="centerY" constant="18.5" id="HmB-Kj-wZs"/>
-                                        <constraint firstAttribute="trailing" secondItem="oId-D7-u7Q" secondAttribute="trailing" constant="458" id="Iae-dO-fxL"/>
                                         <constraint firstItem="u5y-R9-zSf" firstAttribute="leading" secondItem="2tw-ln-HBl" secondAttribute="leading" id="JR1-02-S62"/>
                                         <constraint firstItem="85T-Qx-CJy" firstAttribute="top" secondItem="u5y-R9-zSf" secondAttribute="bottom" constant="16" id="Mp5-kW-7Lu"/>
                                         <constraint firstItem="85T-Qx-CJy" firstAttribute="leading" secondItem="nVf-sh-auU" secondAttribute="leading" constant="38" id="On1-Si-kKo"/>
@@ -118,10 +109,10 @@
                                         <constraint firstAttribute="bottom" secondItem="Se3-W6-ouB" secondAttribute="bottom" constant="8" id="RTL-nt-5d6"/>
                                         <constraint firstItem="UJF-Gv-iAh" firstAttribute="top" secondItem="85T-Qx-CJy" secondAttribute="bottom" constant="8" id="ZeC-Do-74R"/>
                                         <constraint firstItem="Se3-W6-ouB" firstAttribute="centerX" secondItem="nVf-sh-auU" secondAttribute="centerX" id="a63-zk-FJ7"/>
-                                        <constraint firstItem="oId-D7-u7Q" firstAttribute="top" secondItem="nVf-sh-auU" secondAttribute="top" constant="45" id="fkM-su-iPq"/>
+                                        <constraint firstItem="bjj-OS-Iua" firstAttribute="centerX" secondItem="nVf-sh-auU" secondAttribute="centerX" id="jg5-Qu-fQu"/>
                                         <constraint firstAttribute="trailing" secondItem="85T-Qx-CJy" secondAttribute="trailing" constant="38" id="kQq-NY-xp3"/>
+                                        <constraint firstItem="2tw-ln-HBl" firstAttribute="top" secondItem="bjj-OS-Iua" secondAttribute="bottom" constant="8" id="o7F-uE-c0T"/>
                                         <constraint firstItem="2tw-ln-HBl" firstAttribute="leading" secondItem="nVf-sh-auU" secondAttribute="leading" constant="37" id="rUF-up-LqH"/>
-                                        <constraint firstItem="oId-D7-u7Q" firstAttribute="leading" secondItem="nVf-sh-auU" secondAttribute="leading" constant="-200" id="tuk-EN-WtC"/>
                                     </constraints>
                                 </view>
                                 <blurEffect style="light"/>
@@ -140,9 +131,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="g24-DJ-k3L"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-                    <connections>
-                        <outlet property="pointerImage" destination="oId-D7-u7Q" id="sAi-qb-hTw"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -174,8 +162,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="OnboardPointerImage" width="244" height="371"/>
-        <image name="PlaceOnBoardImage" width="230" height="68"/>
+        <image name="HighResolutionLogo" width="300" height="300"/>
         <image name="loginBG" width="455" height="682"/>
     </resources>
 </document>
